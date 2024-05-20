@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root {
+    /* COLORS */
+    --primary: #3661EB;
+    --secondary: #EBEFFD;
+    --background: #F5F7F9;
+    --text-primary: #AAAAAA;
+    --header-primary: #171717;
+    --bar-graph-secondary: #89CFEE;
+    --white: #ffffff;
+    --success: #11823b;
+    --danger: #eb5300;
+    --warning: 	#ecc704;
+    --information: 	#00a1e8;
+    /* FONTS */
+    --main-font: "Roboto", sans-serif;
+}
+
+/* GLOBAL STYLES */
+html, body {
+    scroll-behavior: smooth;
+    font-family: var(--main-font);
+    background-color: var(--white);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* TYPOGRAPHY */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--main-font);
+    color: var(--header-primary);
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: var(--main-font);
+    color: var(--text-primary);
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* NAVIGATION HOPHNEY*/
+
+/* END NAVIGATION */
+
+
+
+
+/* SIDEBAR SAKHILE*/
+
+/* END SIDEBAR */
+
+
+
+
+/* STATISTIC CARDS MPHO */
+
+/* END STATISTIC CARDS */
+
+
+
+
+/* GRAPHS GERALD */
+
+/* END GRAPHS */
+
+
+
+
+/* ACTIVITY MPILO */
+
+/* END ACTIVITY */
