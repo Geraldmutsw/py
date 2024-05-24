@@ -16,7 +16,9 @@
     --main-font: "Roboto", sans-serif;
 }
 
-/* GLOBAL STYLES */
+/* 
+    GLOBAL STYLES 
+*/
 html, body {
     scroll-behavior: smooth;
     font-family: var(--main-font);
@@ -41,7 +43,9 @@ li {
     padding: 0;
 }
 
-/* TYPOGRAPHY */
+/* 
+    TYPOGRAPHY 
+*/
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--main-font);
     color: var(--header-primary);
@@ -55,7 +59,223 @@ p {
     margin: 0;
     padding: 0;
 }
-
+.bg-primary {
+    background-color: var(--primary);
+}
+.bg-secondary {
+    background-color: var(--secondary);
+}
+.bg-main {
+    background-color: var(--background);
+}
+.bg-white {
+    background-color: var(--white);
+}
+.bg-success {
+    background-color: var(--success);
+}
+.bg-danger {
+    background-color: var(--danger);
+}
+.bg-warning {
+    background-color: var(--warning);
+}
+.bg-information {
+    background-color: var(--information);
+}
+.text-white {
+    color: var(--white);
+}
+/* 
+    DASHBOARD
+*/
+.dashboard {
+    height: 100vh;
+}
+.dashboard .sidebar {
+    width: 250px;
+}
+.dashboard .navigation {
+    padding: 20px 40px;
+    width: 1000px;
+}
+.dashboard .statistic-cards {
+    height: 30vh;
+}
+.dashboard .wave-graph {
+    height: 61vh;
+}
+.dashboard .bar-graph {
+    height: 40vh;
+}
+.dashboard .activity {
+    height: 51vh;
+}
+/* 
+    CONTAINER, COLUMNS
+*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.column {
+    flex: 1;
+}
+@media (max-width: 567px) {
+    .container {
+        flex-direction: column;
+    }
+    .column {
+        flex-basis: 100%;
+    }
+}
+@media (min-width: 568px) {
+    /* 1-column */
+    .column {
+        flex-basis: 100%;}
+    /* 2-columns */
+    .column {
+        flex-basis: 50%;}
+    /* 3-columns */
+    .column {
+        flex-basis: 33.3333333333%;}
+    /* 4-columns */
+    .column {
+        flex-basis: 25%;}
+    /* 5-columns */
+    .column {
+        flex-basis: 20%;}
+    /* 6-columns */
+    .column {
+        flex-basis: 16.6666666667%;}
+    /* 7-columns */
+    .column {
+        flex-basis: 14.2857142857%;}
+    /* 8-columns */
+    .column {
+        flex-basis: 12.5%;}
+    /* 9-columns */
+    .column {
+        flex-basis: 11.1111111111%;}
+    /* 10-columns */
+    .column {
+        flex-basis: 10%;}
+}
+/* 
+    COLUMN SPAN 
+*/
+.column-span-1 {
+    flex: 1;}
+.column-span-2 {
+    flex: 2;}
+.column-span-3 {
+    flex: 3;}
+.column-span-4 {
+    flex: 4;}
+.column-span-5 {
+    flex: 5;}
+.column-span-6 {
+    flex: 6;}
+.column-span-7 {
+    flex: 7;}
+.column-span-8 {
+    flex: 8;}
+.column-span-9 {
+    flex: 9;}
+.column-span-10 {
+    flex: 10;}
+/* 
+    DISPLAY 
+*/
+.d-flex {
+    display: flex;}
+.d-block {
+    display: block;}
+.d-inline {
+    display: inline;}
+.d-grid {
+    display: grid;}
+.d-inline-flex {
+    display: inline-flex;}
+.d-inline-block {
+    display: inline-block;}
+.d-none {
+    display: none;}
+.d-inherit {
+    display: inherit;}
+.d-initial {
+    display: initial;}
+.d-unset {
+    display: unset;}
+/* 
+    TEXT ALIGNMENT 
+*/
+.text-center {
+    text-align: center;}
+.text-left {
+    text-align: left;}
+.text-right {
+    text-align: right;}
+.text-start {
+    text-align: start;}
+.text-end {
+    text-align: end;}
+.text-justify {
+    text-align: justify;}
+.text-inherit {
+    text-align: inherit;}
+.text-unset {
+    text-align: unset;}
+.text-initial {
+    text-align: initial;}
+.text- {
+    text-align: unset;}
+/* 
+    JUSTIFY CONTENT 
+*/
+.justify-content-center {
+    justify-content: center;}
+.justify-content-space-between {
+    justify-content: space-between;}
+.justify-content-space-around {
+    justify-content: space-around;}
+.justify-content-space-evenly {
+    justify-content: space-evenly;}
+.justify-content-start {
+    justify-content: left;}
+.justify-content-end {
+    justify-content: end;}
+.justify-content-inherit {
+    justify-content: inherit;}
+.justify-content-initial {
+    justify-content: initial;}
+.justify-content-stretch {
+    justify-content: stretch;}
+.justify-content-unset {
+    justify-content: unset;}
+/* 
+    ALIGN ITEMS 
+*/
+.align-items-center {
+    align-items: center;}
+.align-items-start {
+    align-items: start;}
+.align-items-end {
+    align-items: end;}
+.align-items-baseline {
+    align-items: baseline;}
+.align-items-flex-start {
+    align-items: flex-start;}
+.align-items-flex-end {
+    align-items: flex-end;}
+.align-items-stretch {
+    align-items: stretch;}
+.align-items-inherit {
+    align-items: initial;}
+.align-items-initial {
+    align-items: initial;}
+.align-items-normal {
+    align-items: normal;}
 
 
 

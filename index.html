@@ -5,9 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./assets/css/styles.css">
-    <title>PY Dashboard</title>
+    <title>PY Members Dashboard</title>
 </head>
 <body>
-    
+    <!-- DASHBOARD -->
+    <section class="dashboard d-flex">
+        <!-- DASHBOARD SIDEBAR -->
+        <div class="sidebar d-flex justify-content-center align-items-center bg-primary" id="sidebar">
+           <h5 class="text-white">SIDE BAR</h5>
+        </div>
+
+        <!-- DASHBOARD MAIN -->
+        <div class="main" id="main">
+
+            <!-- DASHBOARD NAVIGATION -->
+            <div class="navigation d-flex justify-content-center align-items-center bg-success" id="navigation">
+                <h5 class="text-white">NAVIGATION</h5>
+            </div>
+
+            <!-- DASHBOARD CONTENT -->
+            <div class="container">
+
+                <!-- CONTENT LEFT -->
+                <div class="column column-span-2">
+
+                    <!-- STATISTIC CARDS -->
+                    <div class="statistic-cards d-flex justify-content-center align-items-center bg-information" id="statistic-cards">
+                        <h5 class="text-white">STATISTICS CARDS</h5>
+                    </div>
+
+                    <!-- WAVE GRAPH -->
+                    <div class="wave-graph d-flex justify-content-center align-items-center bg-warning" id="wave-grap">
+                        <h5 class="text-white">WAVE GRAPH</h5>
+                    </div>
+                </div>
+
+                <!-- CONTENT RIGHT -->
+                <div class="column">
+
+                    <!-- BAR GRAPH -->
+                    <div class="bar-graph d-flex justify-content-center align-items-center bg-danger" id="bar-graph">
+                        <h5 class="text-white">BAR GRAPH</h5>
+                    </div>
+
+                    <!-- ACTIVITY -->
+                    <div class="activity d-flex justify-content-center align-items-center bg-primary" id="activity">
+                        <h5 class="text-white">ACTIVITY</h5>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 </body>
 </html>
